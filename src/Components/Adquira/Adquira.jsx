@@ -12,6 +12,7 @@ import instaIcon from '../../assets/footer/insta-branco.png'
 import faceIcon from '../../assets/footer/face-branco.png'
 import linkeIcon from '../../assets/footer/linke-branco.png'
 import logo from '../../assets/Adquira/logo.png'
+import telefone from 
 
 
 // import '../../stylesheets/Adquira/Adquira.scss'
@@ -37,23 +38,17 @@ function Adquira() {
         <svg className='svg2' width="1004" height="62" viewBox="0 0 1004 62" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M-47 60C-47 60 79.2315 6.37667 397.056 2.50327C714.881 -1.37013 905.511 18.1169 1003 26.6637" stroke="#FFDB10" />
         </svg>
-        <div className='cel'><video width={'90%'} height={'100%'} autoPlay={true} loop={true}><source src={celular_vi} /></video></div>
+        <div className='cel'>
+    <p className='visual'>Visual <span className='amarelo'>________</span></p>
+    <p className='textao3'>
+        Experimente uma interface simplificada, que destaca as informações mais importantes logo à primeira vista. A interface foi projetada para oferecer clareza, combinando uma estética moderna com usabilidade. Os botões são grandes e intuitivos, perfeitos para usuários que buscam praticidade. Navegue facilmente por recursos e funções, sem comprometer a beleza e o design.
+    </p>
+    <h5 className='frase2'>Simples e intuitivo</h5>
+</div>
+
+
         <section className='grupo'>
-            <div className='figgs'>
-                <img className='apro' src={Approval} />
-                <h4>garantia</h4>
-                <p className='textin'>A custom rom fica salva em seu email. podendo utilizá-la em outros dispositivos.</p>
-            </div>
-            <div className='figgs'>
-                <img className='sec' src={Security} />
-                <h4>segurança</h4>
-                <p className='textin'>Um sistema operacional feito para prevenir nossos clientes de golpes em gerais.</p>
-            </div>
-            <div className='figgs'>
-                <img className='pinc' src={Paint} />
-                <h4>estilização</h4>
-                <p className='textin'>Podendo escolher o estilo do seu launcher, cores, fontes, imagens. De acordo com o seu gosto.</p>
-            </div>
+           
         </section>
         <section className='plano'>
             <div className='compras'>
