@@ -269,6 +269,8 @@ padding-top: 5px;
 }
 
 .cel {
+    position: relative;
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr;
     gap: 7rem; /* Espaçamento entre os elementos */
@@ -286,8 +288,8 @@ padding-top: 5px;
 
 .frase2 {
     position: relative;
-    left: 0px;
-    font-size: 3.9rem;
+    left: 233px;
+    font-size: 3.5rem;
     color: #3D1887;
     font-family: $font-family-poppins;
 }
@@ -300,7 +302,29 @@ padding-top: 5px;
 }
 
 .amarelo{
+    position: absolute;
+    top: 10px;
     color: #FFEA73;
+    left: 0;
+}
+
+.ageos1{
+    position: absolute;
+    top: 220px;
+    right: 0;
+    rotate: -0deg;
+}
+
+.linha1{
+    position: absolute;
+    left: 0;
+    top: 875px;
+}
+
+.linha2{
+    position: absolute;
+    left: 0;
+    top: 875px;
 }
 
 }
